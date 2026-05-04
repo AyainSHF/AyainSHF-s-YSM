@@ -1,0 +1,117 @@
+{
+  "spec": 2,
+  "metadata": {
+    "name": "游遡夜",
+    "tips": "\u00A7f因为灯的新年愿望与\u00A78\u00A7m\u00A7oMygo!!!!!\u00A7f六分仪乐队成员\u00A78\u00A7o(除了猫)\u00A7f一同获得永生不死能力的\u00A78\u00A7m\u00A7osoyo\u00A7f游遡夜，正在刹车片世界观中为真正地组一辈子乐队而努力着。",
+    "license": {
+      "type": "CC BY-SA 3.0"
+    },
+    "authors": [
+      {
+        "name": "筅袔",
+        "role": "模型&额外动画",
+        "avatar": "avatar/xh.png",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/13098279"
+        },
+        "comment": "设计蚂蚁真好听"
+      }
+    ]
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+     "extra30": "#extra_config",
+      "extra0": "诹访大舞",
+      "extra1": "挥手",
+      "extra2": "拍手",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra5": "加油！",
+      "extra6": "摆手摇",
+      "extra7": "机械舞",
+      "extra11": "\u00a7a[♪]春日影 vo.游遡夜"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "\u00a79模型设置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "模型缩放修正：",
+            "description": "碰撞箱及视角不变，\u00a7m并非个人缩放装置",
+            "value": "v.player_size",
+            "step": 0.1,
+            "min": 0.1,
+            "max": 10
+          },
+          {
+            "type": "range",
+            "title": "模型高度修正：",
+            "description": "\u00a7m用于适配动画以及各种各样高度的椅子",
+            "value": "v.player_att",
+            "step": 1,
+            "min": -20,
+            "max": 20
+          },
+          {
+            "type": "checkbox",
+            "title": "鞘翅显示",
+            "description": "用来显示或隐藏鞘翅",
+            "value": "v.qiaochi"
+          },
+          {
+            "type": "checkbox",
+            "title": "副手手枪显示",
+            "description": "适用于TAC/TACZ",
+            "value": "v.shouqiang"
+          },
+          {
+            "type": "checkbox",
+            "title": "副手长枪显示",
+            "description": "适用于TAC/TACZ",
+            "value": "v.changqiang"
+          }
+          
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "preview_animation": "zhanshi",
+    "disable_preview_rotation": true,
+    "default_texture": "default",
+    "render_layers_first": false,
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/soyo.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        "textures/default.png"
+      ],
+      "sound_path": "sounds"
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": "textures/arrow.png"
+    }
+  }
+}
