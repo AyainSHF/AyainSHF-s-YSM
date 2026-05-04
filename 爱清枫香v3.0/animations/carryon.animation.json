@@ -1,0 +1,234 @@
+{
+	"format_version": "1.8.0",
+	"animations": {
+		"carryon:block": {
+			"loop": true,
+			"bones": {
+				"Root": {
+					"rotation": [2, 0, 0]
+				},
+				"UpBody": {
+					"rotation": [-15, 0, 0]
+				},
+				"Head": {
+					"rotation": [25, 0, 0]
+				},
+				"LeftArm": {
+					"rotation": [-25, 5, 5],
+					"position": [0, -0.5, 0]
+				},
+				"LeftForeArm": {
+					"rotation": [-5, 0, 0]
+				},
+				"LeftHandLocator": {
+					"scale": 0
+				},
+				"RightArm": {
+					"rotation": [-25, -5, -5],
+					"position": [0, -0.5, 0]
+				},
+				"RightForeArm": {
+					"rotation": [-5, 0, 0]
+				},
+				"RightHandLocator": {
+					"scale": 0
+				}
+			}
+		},
+		"carryon:entity": {
+			"loop": true,
+			"bones": {
+				"Root": {
+					"rotation": [2, 0, 0]
+				},
+				"UpBody": {
+					"rotation": [-20, 0, 0]
+				},
+				"Head": {
+					"rotation": [30, 0, 0]
+				},
+				"LeftArm": {
+					"rotation": [-45, 5, -5],
+					"position": [0, -0.5, 0]
+				},
+				"LeftForeArm": {
+					"rotation": [-5, 0, 0]
+				},
+				"LeftHandLocator": {
+					"scale": 0
+				},
+				"RightArm": {
+					"rotation": [-45, -5, 5],
+					"position": [0, -0.5, 0]
+				},
+				"RightForeArm": {
+					"rotation": [-5, 0, 0]
+				},
+				"RightHandLocator": {
+					"scale": 0
+				},
+				"LeftHand": {
+					"rotation": [0, 0, 0]
+				}
+			}
+		},
+		"carryon:player": {
+			"loop": true,
+			"bones": {
+				"Root": {
+					"rotation": [2, 0, 0]
+				},
+				"UpBody": {
+					"rotation": [-10, 0, 0]
+				},
+				"Head": {
+					"rotation": [10, 0, 0]
+				},
+				"LeftArm": {
+					"rotation": [-30, 5, -5],
+					"position": [0, -0.5, 0]
+				},
+				"LeftForeArm": {
+					"rotation": [-90, -47.5, 90]
+				},
+				"LeftHandLocator": {
+					"scale": 0
+				},
+				"RightArm": {
+					"rotation": [-30, -5, 5],
+					"position": [0, -0.5, 0]
+				},
+				"RightForeArm": {
+					"rotation": [-90, 47.5, -90]
+				},
+				"RightHandLocator": {
+					"scale": 0
+				}
+			}
+		},
+		"carryon:princess": {
+			"loop": true,
+			"bones": {
+				"Root": {
+					"rotation": [0, -90, -115],
+					"position": [16.7, 25.5, 6]
+				},
+				"AllBody": {
+					"rotation": [0, 0, 0]
+				},
+				"UpBody": {
+					"rotation": [50, 0, 0],
+					"position": [0, 1, 0.75]
+				},
+				"Head": {
+					"rotation": [27.5, 0, 0]
+				},
+				"LongHair": {
+					"rotation": [37.5, 0, 0]
+				},
+				"LeftArm": {
+					"rotation": [-16.77609, 44.19145, -7.81185]
+				},
+				"LeftForeArm": {
+					"rotation": [-97.5, 0, 0]
+				},
+				"RightArm": {
+					"rotation": [-16.36648, -42.10287, -4.20805]
+				},
+				"RightForeArm": {
+					"rotation": [-127.5, 0, 0]
+				},
+				"LeftLeg": {
+					"rotation": [-7.61435, 9.91358, -1.31845]
+				},
+				"LeftLowerLeg": {
+					"rotation": [65, 0, 0]
+				},
+				"LeftFoot": {
+					"rotation": [27.5, 0, 0]
+				},
+				"RightLeg": {
+					"rotation": [-2.17539, -10.01806, -1.21764]
+				},
+				"RightLowerLeg": {
+					"rotation": [65, 0, 0]
+				},
+				"RightFoot": {
+					"rotation": [7.5, 0, 0]
+				},
+				"skirtFront": {
+					"rotation": [-18.5, 0, 0],
+					"position": [0, 0.30262, -0.64896]
+				},
+				"skirt_NW": {
+					"rotation": [-16, 0, 0],
+					"position": [-0.21728, 0.10028, -0.85773]
+				},
+				"skirt_NE": {
+					"rotation": [-20.75, 0, 0],
+					"position": [0, -0.47697, -0.79999]
+				},
+				"skirt_SW": {
+					"position": [0, -0.13585, -0.36303]
+				},
+				"skirtFront2": {
+					"rotation": [-20.25, 0, 0],
+					"position": [0, 0.88044, 0.2035]
+				},
+				"skirt_NW2": {
+					"rotation": [-18.75, 0, 0],
+					"position": [-0.21728, 0.10028, -0.85773]
+				},
+				"skirt_NE2": {
+					"rotation": [-20.75, 0, 0],
+					"position": [0, -0.26214, -0.69981]
+				},
+				"skirt_SW2": {
+					"position": [0, -0.13585, -0.36303]
+				},
+				"skirtFront3": {
+					"rotation": [-18.5, 0, 0],
+					"position": [0, 1.10792, -0.28434]
+				},
+				"skirt_NW3": {
+					"rotation": [-19.5, 0, 0],
+					"position": [-0.21728, 0.10028, -0.85773]
+				},
+				"skirt_NE3": {
+					"rotation": [-20.75, 0, 0],
+					"position": [0, -0.289, -0.71233]
+				},
+				"skirt_SW3": {
+					"position": [0, -0.13585, -0.36303]
+				},
+				"weiqundown": {
+					"rotation": [-22.25, 0, 0]
+				},
+				"SDFront": {
+					"rotation": [-31.25, 0, 0],
+					"position": [0, 0.98492, 1.44006]
+				},
+				"SDBack": {
+					"rotation": [-9.5, 0, 0],
+					"position": [0, 0.40905, -0.87722]
+				},
+				"SD_NW": {
+					"rotation": [-29.78729, -3.74196, -6.50446],
+					"position": [-1.01235, 0.62348, 0.90645]
+				},
+				"SD_NE": {
+					"rotation": [-30.25, 0, 0],
+					"position": [0, 0.49045, -1.05176]
+				},
+				"SD_SW": {
+					"rotation": [-14.5, 0, 0],
+					"position": [-0.8, 0, 0]
+				},
+				"SD_SE": {
+					"rotation": [-7, 0, 0],
+					"position": [0, 0.36314, -0.77875]
+				}
+			}
+		}
+	}
+}

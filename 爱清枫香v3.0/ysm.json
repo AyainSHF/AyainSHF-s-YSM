@@ -1,0 +1,209 @@
+{
+  "spec": 2,
+  "metadata": {
+    "name": "爱清枫香",
+    "tips": "就读于歌赫娜学园，负责学生食堂管理的供餐部成员，每天早晨为歌赫娜的学生们准备着巨量的食物。烹饪手艺十分优秀，然而由于食堂人手长期不足，她的烹饪水平常常被低估。尽管如此她从未气馁，每天都在为了能做出更美味的料理而脚踏实地地努力着。",
+    "license": {
+      "type": "CC BY-NC-SA 4.0"
+    },
+    "authors": [
+      {
+        "name": "筅袔",
+        "role": "模型&额外动画",
+        "avatar": "avatar/xh.png",
+        "contact": {
+          "Bilibili": "https://space.bilibili.com/13098279"
+        },
+        "comment": "Melodiniq好听捏(B站获取长期更新链接)"
+      },
+      {
+        "name": "蔚蓝档案",
+        "role": "IP",
+        "avatar": "avatar/ba.png",
+        "contact": {
+          "官网": "https://bluearchive-cn.com"
+        },
+        "comment": ""
+      }
+    ]
+  },
+  "properties": {
+    "height_scale": 0.7,
+    "width_scale": 0.7,
+    "extra_animation": {
+      "extra1": "挥手",
+      "extra2": "拍手",
+      "extra3": "点头",
+      "extra4": "摇头",
+      "extra5": "加油！",
+      "extra9": "端锅",
+      "extra11": "做饭中~",
+      "extra8": "\u00a7a[♪]醉酒舞",
+      
+      "extra30": "#extra_config",
+      "extra40": "#extra_config2",
+      "extra12": "\u00A7e/非标高度/椅子坐姿",
+      "extra13": "\u00a7a[♪]「憧憬的日常」",
+      "extra6": "摆手摇",
+      "extra7": "机械舞",
+      "extra0": "诹访大舞"
+    },
+    "extra_animation_buttons": [
+      {
+        "id": "extra_config",
+        "name": "\u00a79模型设置",
+        "config_forms": [
+          {
+            "type": "range",
+            "title": "模型缩放修正：",
+            "description": "碰撞箱及视角不变，\u00a7m并非个人缩放装置",
+            "value": "v.player_size",
+            "step": 0.1,
+            "min": 0.1,
+            "max": 10
+          },
+          {
+            "type": "range",
+            "title": "模型高度修正：",
+            "description": "\u00a7m用于适配动画以及各种各样高度的椅子",
+            "value": "v.player_att",
+            "step": 1,
+            "min": -20,
+            "max": 20
+          },
+          {
+            "type": "checkbox",
+            "title": "鞘翅显示",
+            "description": "用来显示或隐藏鞘翅",
+            "value": "v.qiaochi"
+          },
+          {
+            "type": "checkbox",
+            "title": "副手手枪显示",
+            "description": "适用于TAC/TACZ/卓越前线",
+            "value": "v.shouqiang"
+          },
+          {
+            "type": "checkbox",
+            "title": "副手长枪显示",
+            "description": "适用于TAC/TACZ/卓越前线",
+            "value": "v.changqiang"
+          },
+          {
+            "type": "radio",
+            "title": "服装切换",
+            "description": "夏日服装基于 ゼ一ロ様 的模型制作",
+            "value": "v.fu",
+            "labels": {
+                "工作服": "v.fu=0;v.fu_1=1;v.fu_2=1;v.fu_3=0;v.fu_4=0",
+                  "校服": "v.fu=1;v.fu_1=1;v.fu_2=0;v.fu_3=0;v.fu_4=0",
+                  "夏日": "v.fu=2;v.fu_1=0;v.fu_2=0;v.fu_3=1;v.fu_4=0",
+                  "常服": "v.fu=3;v.fu_1=0;v.fu_2=0;v.fu_3=0;v.fu_4=1"
+              }
+          }
+          
+        ]
+      },
+      {
+        "id": "extra_config2",
+        "name": "\u00a79表情差分",
+        "config_forms": [
+          {
+              "type": "radio",
+              "title": "眼睛",
+              "description": "",
+              "value": "v.eye",
+              "labels": {
+                    "默认": "v.eye=0;v.eye_1=1;v.eye_2=0;v.eye_3=0;v.eye_4=0",
+                  "死鱼眼": "v.eye=1;v.eye_1=0;v.eye_2=1;v.eye_3=0;v.eye_4=0",
+                    "微笑": "v.eye=2;v.eye_1=0;v.eye_2=0;v.eye_3=1;v.eye_4=0",
+                     "> <": "v.eye=3;v.eye_1=0;v.eye_2=0;v.eye_3=0;v.eye_4=1"
+              }
+           },
+           {
+              "type": "radio",
+              "title": "嘴型",
+              "description": "",
+              "value": "v.mouth",
+              "labels": {
+                    "默认": "v.mouth=0;v.mouth_1=1;v.mouth_2=0;v.mouth_3=0;v.mouth_4=0;v.mouth_5=0;v.mouth_6=0;v.mouth_7=0",
+                    "害怕": "v.mouth=1;v.mouth_1=0;v.mouth_2=1;v.mouth_3=0;v.mouth_4=0;v.mouth_5=0;v.mouth_6=0;v.mouth_7=0",
+                    "生气": "v.mouth=2;v.mouth_1=0;v.mouth_2=0;v.mouth_3=1;v.mouth_4=0;v.mouth_5=0;v.mouth_6=0;v.mouth_7=0",
+                    "微笑": "v.mouth=3;v.mouth_1=0;v.mouth_2=0;v.mouth_3=0;v.mouth_4=1;v.mouth_5=0;v.mouth_6=0;v.mouth_7=0",
+                       "w": "v.mouth=4;v.mouth_1=0;v.mouth_2=0;v.mouth_3=0;v.mouth_4=0;v.mouth_5=1;v.mouth_6=0;v.mouth_7=0",
+                       "Λ": "v.mouth=5;v.mouth_1=0;v.mouth_2=0;v.mouth_3=0;v.mouth_4=0;v.mouth_5=0;v.mouth_6=1;v.mouth_7=0",
+                       "v": "v.mouth=6;v.mouth_1=0;v.mouth_2=0;v.mouth_3=0;v.mouth_4=0;v.mouth_5=0;v.mouth_6=0;v.mouth_7=1"
+              } 
+            },    
+            {
+              "type": "radio",
+              "title": "情绪",
+              "description": "",
+              "value": "v.emo",
+              "labels": {
+                    "*愤怒*": "v.emo=0;v.emo_1=1;v.emo_2=0;v.emo_3=0",
+                  "干什么！": "v.emo=1;v.emo_1=0;v.emo_2=1;v.emo_3=0",
+                  "白鸡问号": "v.emo=2;v.emo_1=0;v.emo_2=0;v.emo_3=1",
+                      "重置": "v.emo=3;v.emo_1=0;v.emo_2=0;v.emo_3=0"    
+              }
+           }
+        ]
+      }
+    ],
+    "extra_animation_classify": [],
+    "preview_animation": "zhanshi",
+    "disable_preview_rotation": true,
+    "default_texture": "default",
+    "gui_background": "textures/background.png",
+    "render_layers_first": false,
+    "free": true
+  },
+  "files": {
+    "player": {
+      "model": {
+        "main": "models/fuukar.json",
+        "arm": "models/arm.json"
+      },
+      "animation": {
+        "main": "animations/main.animation.json",
+        "arm": "animations/arm.animation.json",
+        "extra": "animations/extra.animation.json",
+        "tac": "animations/tac.animation.json",
+        "carryon": "animations/carryon.animation.json",
+        "parcool": "animations/parcool.animation.json",
+        "swem": "animations/swem.animation.json",
+        "slashblade": "animations/slashblade.animation.json",
+        "tlm": "animations/tlm.animation.json"
+      },
+      "animation_controllers": [],
+      "texture": [
+        "textures/default.png"
+      ],
+      "sound_path": "sounds"
+    },
+    "arrow": {
+      "model": "models/arrow.json",
+      "animation": "animations/arrow.animation.json",
+      "texture": "textures/arrow.png"
+    },
+     "vehicles": {
+      
+      "minecraft:mule": {
+        "model": "models/car.json",
+        "texture": {"uv": "textures/car.png"},
+        "animation": "animations/vehicle/mule.animation.json"
+      },
+      "minecraft:donkey": {
+        "model": "models/yadi.json",
+        "texture": {"uv": "textures/yadi.png"},
+        "animation": "animations/vehicle/mule.animation.json"
+      },
+      "minecraft:horse": {
+        "model": "models/car.json",
+        "texture": {"uv": "textures/car.png"},
+        "animation": "animations/vehicle/mule.animation.json"
+      }
+    
+    }
+  }
+}
